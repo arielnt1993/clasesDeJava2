@@ -6,7 +6,7 @@ public class Numero extends Termino {
         this.valor = valor;
     }
 
-    public int getValor() {
+    public int valuar() {
         return valor;
     }
 
