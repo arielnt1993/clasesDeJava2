@@ -3,8 +3,8 @@ public class Principal {
         Numero a = new Numero(2);
         Numero b = new Numero(4);
         Numero c = new Numero(7);
-        Suma s = new Suma(a,b);
-        Suma r = new Suma(s,c);
+        Operacion s = new Suma(a,b);
+        Multiplicacion r = new Multiplicacion(s,c);
         int resultado = r.valuar();
         System.out.println("el resultado de a+b es: "+resultado);
     }

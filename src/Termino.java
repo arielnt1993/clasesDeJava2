@@ -1,5 +1,3 @@
-public class Termino {
-    public int valuar(){
-        return -1;
-    }
+public interface Termino {
+    int valuar();
 }

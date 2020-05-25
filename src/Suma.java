@@ -1,11 +1,7 @@
-public class Suma extends Termino{
-
-    private Termino izquierda;
-    private  Termino derecha;
+public class Suma extends Operacion {
 
     public Suma(Termino izquierda, Termino derecha) {
-        this.izquierda = izquierda;
-        this.derecha = derecha;
+        super(izquierda, derecha);
     }
     public int valuar(){
         int valorIzquierda = izquierda.valuar();
